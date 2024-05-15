@@ -2,7 +2,7 @@
 
 ## IcedTea-Docker
 
-IcedTea を 使用して、Java Web Startアプリケーション (`.jnlp` ファイル) を Docker 上で起動し、ホストの X Server に接続して GUI を表示します。
+IcedTea を 使用してJava Web Startアプリケーション (`.jnlp` ファイル) を Docker 上で起動し、ホストの X Server に接続して GUI を表示します。
 
 ### Usage
 
