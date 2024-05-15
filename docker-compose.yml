@@ -1,0 +1,12 @@
+services:
+  main:
+    container_name: icedtea
+    build: .
+    tty: true
+    stdin_open: true
+    user: user
+    environment:
+      - DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./files:/home/user/files
